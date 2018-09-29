@@ -18,6 +18,6 @@ int main()
 		printf("Your number is 1000\n");
 	}
 
-	
+
 	return 0;
 }
