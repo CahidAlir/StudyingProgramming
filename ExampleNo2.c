@@ -1,6 +1,7 @@
 /**
 AUTHOR = CAHID ALIR
 IF/ELSE EGZERSIZI
+
 */
 #include <stdio.h>
 #define KG 1
@@ -11,13 +12,13 @@ int main()
 {
     float result = 0;
     float num1, num2;
-    int menu;
-    menu = showMenu();
+    int menu = 0;
 
-    while(menu<1 || menu>2);
-{
+
+do {
     menu = showMenu();
-}
+} while(menu<1 || menu>2);
+
     printf("Enter your weight: \n");
     scanf("%f", &num1);
     printf("enter your height: \n");
@@ -34,7 +35,7 @@ int main()
         break;
 }
 
-    printf("your BMI is %.2f",result);
+    printf("your BMI is %.2f\n",result);
 
     return 0;
 }
