@@ -1,17 +1,27 @@
+/**
+@author Said
+switch case, ve fonksiyonlarý anlatan basit bir program..
+*/
 #include <stdio.h>
+//EÐER BIR DEÐER CONSTANT'SA BUYUK HARFLERLE YAZ
 #define ADD 1
 #define SUB 2
 #define MULT 3
 #define DIV 4
+//BILGISAYAR ADD GORDUGU YERE 1 YAZACAK VB...
 
 int showMenu();
 
 int main () {
 
+    //float cinsinden deðiþkenleri tanýmladým
 	float result = 0;
 	float num1, num2;
-
-	int menu = showMenu();
+    int menu;
+    //menu deðiþkeni showMenu fonksiyonundan dönen sonuçla initialize ediliyor...
+	menu = showMenu();
+	//while içindeki boolean (true ya da false olan deðer) yani condition
+	//true iken içerisindeki iþlemi yapar.. false iken ya da false olduðunda iþlemi yapmayý keser.
 	while(menu<1 || menu >4) {
 		menu = showMenu();
 	}
@@ -22,7 +32,7 @@ int main () {
 	scanf("%f",&num2);
 
 	switch(menu) {
-		
+
 		case ADD:
 		result = num1 + num2;
 		break;
