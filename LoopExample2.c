@@ -70,16 +70,16 @@ void exampleLoop3_saidSol()
 
 	for(nLine = 1; nLine<=5; nLine++) //Döngü her çalıştığında bir satır atlayacak...
 	{
-		for(space=5; space>nLine; space--) //İlk turda 4 sonra 3,2,1 şeklinde boşluk versin istiyorum.. Aynı zamanda 5. satıra 
+		for(space=5; space>nLine; space--) //İlk turda 4 sonra 3,2,1 şeklinde boşluk versin istiyorum.. Aynı zamanda 5. satıra
 		{								   //geldiğinde space = 4 ve nLine = 5 olduğu için koşul false olduğundan dolayı
 			printf(" ");				   //bu döngüye hiç girmeyecek...
 		}
 
-		for(star = 1; star<=nLine; star++) //İlk turda 1 sonra 2.3.4 ve en son satırda 5 tane yıldız bassın.. 
+		for(star = 1; star<=nLine; star++) //İlk turda 1 sonra 2.3.4 ve en son satırda 5 tane yıldız bassın..
 		{
 			printf("*");
 		}
-		
+
 		printf("\n");
 	}
 }

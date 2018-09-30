@@ -22,5 +22,25 @@ int main()
 
 void printShape()
 {
-	//Çözümün buraya!!!
+	int star, nLine, space;
+	for(nLine=5; nLine>-1; nLine--)
+    {
+        for(space=0; space<nLine; space++)
+        {
+            printf(" ");
+        }
+        for(star=4; 0<star<nLine; star--)
+        {
+            printf("*",star * 2 + 1);
+        }
+         printf("\n");
+    }
 }
+
+
+
+
+
+
+
+
