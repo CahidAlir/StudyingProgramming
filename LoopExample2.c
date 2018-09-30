@@ -11,7 +11,8 @@ void exampleLoop();
 int main()
 {
    // exampleLoop();
-    exampleLoop2();
+   // exampleLoop2();
+   exampleLoop3();
     return 0;
 }
 
@@ -41,4 +42,27 @@ void exampleLoop2 ()
     }
 }
 
+void exampleLoop3 ()
+{
+    int space, star, newLine;
+    for(newLine=1; newLine<5; newLine++)
+    {
+        for(star=0; star<newLine; star++)
+        {
+            for(space=5; space>newLine>star ; space--)
+            {
+                printf(" ");
+            }
+           printf("*");
+        }
+     printf("\n");
+    }
 
+}
+
+void exampleLoop3_saidSol()
+
+{
+
+
+}
