@@ -29,13 +29,9 @@ void printShape()
         {
             printf(" ");
         }
-        for(star=-1; star<nLine; star=2*nLine+1)
-        {//burada star=-1 işlevsiz biliyorum ama önceki halinden kaldı ayrıca uyduramadım kalanına
+        for(star=1; star<nLine*2+2; star++)
+        {
             printf("*");
-	    //Böyle bir şey yok.. ama sana tip vereyim.. star sayısını azaltmak ya da arttırmak yerine
-	    //Sonuçta lineer artan bir durum var.. sen de lineer arttır...
-	    //Yani gidip star-- demek yerine (Yani star sayısını bir arttırmak yerine
-	    //1,3,5,7,9 diye artacak şekilde implemente et...
         }
          printf("\n");
     }
