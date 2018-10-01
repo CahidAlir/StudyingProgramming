@@ -30,7 +30,7 @@ void printShape()
             printf(" ");
         }
         for(star=-1; star<nLine; star=2*nLine+1)
-        {
+        {//burada star=-1 işlevsiz biliyorum ama önceki halinden kaldı ayrıca uyduramadım kalanına
             printf("*");
 	    //Böyle bir şey yok.. ama sana tip vereyim.. star sayısını azaltmak ya da arttırmak yerine
 	    //Sonuçta lineer artan bir durum var.. sen de lineer arttır...
