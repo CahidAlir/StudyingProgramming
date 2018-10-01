@@ -23,15 +23,15 @@ int main()
 void printShape()
 {
 	int star, nLine, space;
-	for(nLine=5; nLine>-1; nLine--)
+	for(nLine=0; nLine<7; nLine++)
     {
-        for(space=0; space<nLine; space++)
+        for(space=6; space>nLine; space--)
         {
             printf(" ");
         }
-        for(star=4; 0<star<nLine; star--)
+        for(star=-1; star<nLine; star=2*nLine+1)
         {
-            printf("*",star * 2 + 1);
+            printf("*");
 	    //Böyle bir şey yok.. ama sana tip vereyim.. star sayısını azaltmak ya da arttırmak yerine
 	    //Sonuçta lineer artan bir durum var.. sen de lineer arttır...
 	    //Yani gidip star-- demek yerine (Yani star sayısını bir arttırmak yerine
