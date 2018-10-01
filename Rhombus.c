@@ -27,6 +27,9 @@ void printUpside()
     printf("\n");
   }
 }
+//1. Commentler eklenmemiş
+//2. Reverse.c yi niye silmedin
+//3. eğer anlayarak yaptığını düşünüyorsan star'ı 1 den başlat
 
 void printDownside()
 {
