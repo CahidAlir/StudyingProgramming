@@ -32,6 +32,7 @@ void printShape()
         {
             printf(" ");
         }
+<<<<<<< HEAD
         for(star=4; 0<star<nLine; star--)//heh iştee zurnanın zırt dediği yer..
         {                                //be öküz 0<star<nLine diye bir condition mı olur
            // printf("*",star * 2 + 1);  Hayır zaten bu satır compile error veriyor... 
@@ -39,6 +40,15 @@ void printShape()
             //mesela printf("Al sana değişken -> %d",star*2+1); bu iş yapar.. o da sayı bastırır...
 
             
+=======
+        for(star=-1; star<nLine; star=2*nLine+1)
+        {//burada star=-1 işlevsiz biliyorum ama önceki halinden kaldı ayrıca uyduramadım kalanına
+            printf("*");
+	    //Böyle bir şey yok.. ama sana tip vereyim.. star sayısını azaltmak ya da arttırmak yerine
+	    //Sonuçta lineer artan bir durum var.. sen de lineer arttır...
+	    //Yani gidip star-- demek yerine (Yani star sayısını bir arttırmak yerine
+	    //1,3,5,7,9 diye artacak şekilde implemente et...
+>>>>>>> parent of 6977bc2... BAŞARDIIIIIM!
         }
          printf("\n");
     }
