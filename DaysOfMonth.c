@@ -11,6 +11,8 @@ int getDate();
 int calculateDays(int month, int year);
 int checkLeapYear(int year);
 void printInvalidArgumentError();
+int getYear();
+int getMonth();
 
 int main() {
 
@@ -125,7 +127,7 @@ int getMonth() {
     {
         printf("Enter the month :\n");
         scanf("%d",&month);
-        if(month>1 && month<12)
+        if(month>=1 && month<=12)
             notValid = false;
         if(notValid)
             printInvalidArgumentError();
