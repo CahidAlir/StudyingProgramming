@@ -27,11 +27,11 @@ do {
     switch(menu)
 {
         case KG:
-        result = num1 / num2 * num2;
+        result = num1 / (num2 * num2);
         break;
 
         case POUND:
-        result = num1 * 703 / num2 * num2;
+        result = num1 * 703 / (num2 * num2);
         break;
 }
 

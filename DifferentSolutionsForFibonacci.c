@@ -48,4 +48,10 @@ void arraySolution() {
 	 }
 }
 
-int recursiveSol(int ex)
+int recursiveSol(int ex) {
+    if(ex = 0 || ex = 1) {
+        return 1;
+    } else {
+        return recursiveSol(ex-1) + recursiveSol(ex-2);
+    }
+}
