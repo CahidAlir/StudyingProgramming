@@ -71,9 +71,13 @@ int iterativeRepeat(int endPoint, int repeatCount)
 
     for(counter=0;counter<repeatCount;counter++)
     {
+
         newEndPoint=iterativeAddition(endPoint);
         endPoint=newEndPoint;
-        sum = sum + newEndPoint;
+        if(counter + 1 == repeatCount) {
+            sum = endPoint;
+        }
+        
     }
     return sum;
 }
