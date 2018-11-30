@@ -36,4 +36,8 @@ bool isFullySentence(char sentence []) {
 			}
 		}
 	}
+    if(append == 26) {
+        return true;
+    }
+    return false;
 }
