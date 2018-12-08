@@ -12,7 +12,7 @@ public class SteveQuestionSolution {
 		
 	}
 
-	private void solve() {
+	private boolean solve() {
 		
 		Scanner sc = new Scanner(System.in);
 		String sentence = "";
@@ -22,13 +22,17 @@ public class SteveQuestionSolution {
 			System.out.println("Your sentence is empty or does not contains any question mark!");
 			System.out.println("Please enter again...");
 			System.out.println("To quit please type 'quit' ");
-			sentence = sc.nextLine();		
+			sentence = sc.nextLine();
+			if(sentence.equals("quit")) {
+				return false;
+			}
 		}
 		sc.close();	
 		sentence = bePolite(sentence);
 		System.out.println(); System.out.println();
 		System.out.println("Now your sentence should be!");
 		System.out.println(sentence);
+		return true;
 		
 	}
 
