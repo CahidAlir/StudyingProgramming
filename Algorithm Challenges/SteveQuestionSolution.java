@@ -1,3 +1,6 @@
+/**
+@author Said Alır, GitHub Al-Said 
+*/
 package fun;
 
 import java.util.Scanner;

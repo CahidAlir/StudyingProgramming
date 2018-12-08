@@ -1,3 +1,7 @@
+/**
+@author Said Alır, GitHub Al-Said 
+*/
+
 func checkConditions(s: String) -> Bool {
     if s.count < 1 || s.count > 100 {
         return false
