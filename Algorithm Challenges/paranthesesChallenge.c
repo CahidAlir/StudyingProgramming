@@ -25,6 +25,10 @@ int checkParantheses(char sentence[])
 
     while(sentence[i]!= '\0')
     {
+        if(count==0 && sentence[i]== ')')
+            {
+                return 1;
+            }
         if(sentence[i]=='(')
         {
             count++;
