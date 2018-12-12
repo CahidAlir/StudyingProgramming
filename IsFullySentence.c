@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
+
+int isFullySentence(char[]);
 
 int main() {
 
@@ -25,7 +28,7 @@ int isFullySentence(char sentence []) {
 					   'f','g','h','i','j',
 					   'k','l','m','n','o',
 					   'p','q','r','s','t',
-					   'u','v','w','x','y','z'}
+					   'u','v','w','x','y','z'};
 	int i,j = 0;
 	int append = 0;
 	while(sentence[i] != '\0') {
