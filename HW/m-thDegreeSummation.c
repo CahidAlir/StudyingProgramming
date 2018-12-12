@@ -1,3 +1,7 @@
+/**
+Author:Cahid Alır.
+Number:180315006
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -77,7 +81,7 @@ int iterativeRepeat(int endPoint, int repeatCount)
         if(counter + 1 == repeatCount) {
             sum = endPoint;
         }
-        
+
     }
     return sum;
 }

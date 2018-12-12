@@ -1,25 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
+#include <string.h>
 
 int isFullySentence(char[]);
+int mostCommon(char[]);
 
 int main() {
 
-	char str1[] = "the quick brown fox jumps over the lazy dog";
-	char str2[] = "example not fully sentence";
+	char givenSentence[100];
+	gets(givenSentence);
 
-	if(isFullySentence(str1) == 1) {
-		printf("First string is a fully sentence\n");
+
+	if(isFullySentence(strlwr(givenSentence)) == 1) {
+		printf("Given sentence is a fully sentence\n");
 	} else {
-		printf("First string is not a fully sentence\n");
+		printf("Given sentence is not a fully sentence\n");
 	}
 
-	if(isFullySentence(str2) == 1) {
-		printf("Second string is a fully sentence\n");
-	} else {
-		printf("Second string is not a fully sentence\n");
-	}
+    printf("%d",mostCommon(givenSentence));
+
+    return 0;
 }
 
 int isFullySentence(char sentence []) {
@@ -44,4 +44,9 @@ int isFullySentence(char sentence []) {
         return 1;
     }
     return 0;
+}
+
+int mostCommon(char sentence[])
+{
+
 }
