@@ -29,7 +29,7 @@ int isFullySentence(char sentence []) {
 					   'k','l','m','n','o',
 					   'p','q','r','s','t',
 					   'u','v','w','x','y','z'};
-	int i,j = 0;
+	int i = 0 ,j = 0;
 	int append = 0;
 	while(sentence[i] != '\0') {
 		for(j=0; j<26; j++) {
