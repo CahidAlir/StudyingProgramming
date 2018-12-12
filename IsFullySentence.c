@@ -6,20 +6,20 @@ int main() {
 	char str1[] = "the quick brown fox jumps over the lazy dog";
 	char str2[] = "example not fully sentence";
 
-	if(isFullySentence(str1)) {
+	if(isFullySentence(str1) == 1) {
 		printf("First string is a fully sentence\n");
 	} else {
 		printf("First string is not a fully sentence\n");
 	}
 
-	if(isFullySentence(str2)) {
+	if(isFullySentence(str2) == 1) {
 		printf("Second string is a fully sentence\n");
 	} else {
 		printf("Second string is not a fully sentence\n");
 	}
 }
 
-bool isFullySentence(char sentence []) {
+int isFullySentence(char sentence []) {
 
 	char alphabet[] = {'a','b','c','d','e',
 					   'f','g','h','i','j',
@@ -35,9 +35,10 @@ bool isFullySentence(char sentence []) {
 				append++;
 			}
 		}
+		i++;
 	}
     if(append == 26) {
-        return true;
+        return 1;
     }
-    return false;
+    return 0;
 }
