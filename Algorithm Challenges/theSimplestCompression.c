@@ -33,7 +33,7 @@ int countElements(char givenString[])
 void convertString(char givenString[], int elementsOfArray)
 {
     char alteredNumber[1];
-    int i=0, counter=1;
+    int i=0, counter=1, removeCount=0;
     int position;
     char repeated;
 
@@ -49,9 +49,13 @@ void convertString(char givenString[], int elementsOfArray)
                 sprintf(alteredNumber, "%d",counter);
                 givenString[i+1]=alteredNumber[0];
             }
-            for(position=i+1;position<elementsOfArray;position++)
+            for(int m=1;m<=counter;m++)
             {
-                givenString[i+2]=givenString[i+3];
+                for(position=i+1;position<elementsOfArray;position++)
+                {
+                    givenString[position+1]=givenString[position+2];
+                }
+                    givenString[elementsOfArray-m]=' ';
             }
         }
         i++;
