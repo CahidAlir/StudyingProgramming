@@ -1,5 +1,5 @@
 /**
-Author:Cahid Alýr.
+Author:Cahid Alir.
 Number:180315006
 */
 #include<stdio.h>
@@ -9,7 +9,6 @@ int recursiveRepeat(int, int);//This will take the total, assign it as new end p
 int recursiveAddition(int);//This will calculate the total of numbers from 1 to end point which given by user.
 
 int iterativeRepeat(int, int);//This will take the total, assign it as new end point and repeat the operation.
-int iterativeAddition(int);//This will calculate the total of numbers from 1 to end point which given by user.
 
 int main()
 {
@@ -61,38 +60,24 @@ This function is gathering numbers from 1 to a given end point.
 
 int recursiveAddition(int endPoint)
 {
-    if(endPoint==1)//Basically function is adding end point to what is coming before it until it is 1
+    if(endPoint==1)//Basically function is adding end point to what is coming before it until it is 1.
     {
         return 1;
     }
     return endPoint + recursiveAddition(endPoint-1);
 }
 
+/**
+This function finds the sum of numbers from 1 to given number and repeats it as much as user wants.
+*/
+
 int iterativeRepeat(int endPoint, int repeatCount)
 {
     int counter, newEndPoint;
-    int sum=0;
 
-    for(counter=0;counter<repeatCount;counter++)
+    for(counter=0;counter<repeatCount;counter++)//For loop repeats the operation with new end point.
     {
-
-        newEndPoint=iterativeAddition(endPoint);
-        endPoint=newEndPoint;
-        if(counter + 1 == repeatCount) {
-            sum = endPoint;
-        }
-
+        endPoint=endPoint*(endPoint+1)/2;//This classical formula finds the sum.
     }
-    return sum;
-}
-
-int iterativeAddition(int endPoint)
-{
-    int counter, sum=0;
-
-    for(counter=1;counter<=endPoint;counter++)
-    {
-        sum+=counter;
-    }
-    return sum;
+    return endPoint;
 }
