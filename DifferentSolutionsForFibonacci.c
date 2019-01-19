@@ -34,14 +34,14 @@ void arraySolution() {
 	printf("Enter how many fibbonacci number do you want to see\n");
 	scanf("%d",&size);
 	int fibbonacci[size];
-	fibbonacci[0] = 1;
+	fibbonacci[0] = 1;//Ilk iki eleman el ile tanýmlý
 	fibbonacci[1] = 1;
 
 	for (i = 1; i < size; i++)
 	 {
-	 	fibbonacci[i+1] = fibbonacci[i] + fibbonacci[i-1];
-	 }
-
+	 	fibbonacci[i+1] = fibbonacci[i] + fibbonacci[i-1];//Gayet basit bir þekilde arraya ekleme çýkarma örneði.
+	 }                                                    //Elemanlar sýra ile eklendiði için tek yaptýðýn iki konum önceki ve
+                                                          //Ve bir konum öncekileri toplamak...
 	 for (int i = 0; i < size; i++)
 	 {
 	 	printf("%d. fibbonacci number is >> %d\n",i+1,fibbonacci[i]);

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /**
 Author: @Cahid
 */
@@ -16,8 +16,8 @@ int main()
         printf("Enter the number of rows:\n");
         scanf("%d",&row);
         printf("Enter the number of column:\n");
-        scanf("%d",&column);//Önce deðerleri verip sonra matrisi tanýmlamam gerektiðini farkettim
-                            //tanýmlayamayýnca çöküyordu sistem
+        scanf("%d",&column);//Ã–nce deÃ°erleri verip sonra matrisi tanÃ½mlamam gerektiÃ°ini farkettim
+                            //tanÃ½mlayamayÃ½nca Ã§Ã¶kÃ¼yordu sistem
     int matrix[row][column];
     createMatrix(row, column, matrix);
     printMatrix(row, column, matrix);
@@ -32,11 +32,11 @@ int createMatrix(int row, int column, int matrix[row][column])
 
         for(i=0;i<row;i++)
         {
-            for(j=0;j<column;j++)//Burada önce kafam çok karýþtý ama þuan düzelttim kanýmca
+            for(j=0;j<column;j++)//Burada Ã¶nce kafam Ã§ok karÃ½Ã¾tÃ½ ama Ã¾uan dÃ¼zelttim kanÃ½mca
             {
                 printf("Enter the number on the %d. row and %d. column\n", i+1, j+1);
-                scanf("%d",&matrix[i+1][j+1]);/*Kullanýcýdan alýnan deðerlerin doðru yere gitmesi ve kullanýcýnýn da
-                                                her deðerini istediði yerlere sorunsuzca yerleþtirmesi için en mantýklý yol bu galiba...*/
+                scanf("%d",&matrix[i+1][j+1]);/*KullanÃ½cÃ½dan alÃ½nan deÃ°erlerin doÃ°ru yere gitmesi ve kullanÃ½cÃ½nÃ½n da
+                                                her deÃ°erini istediÃ°i yerlere sorunsuzca yerleÃ¾tirmesi iÃ§in en mantÃ½klÃ½ yol bu galiba...*/
             }
         }
         return matrix[row][column];
@@ -50,9 +50,9 @@ void printMatrix(int row, int column, int matrix[row][column])
 
         for(k=0;k<row;k++)
         {
-            for(l=0;l<column;l++)//Burada da sýkýntý çýkmadý tek tek deðerleri yerleþtirebiliyorum
+            for(l=0;l<column;l++)//Burada da sÃ½kÃ½ntÃ½ Ã§Ã½kmadÃ½ tek tek deÃ°erleri yerleÃ¾tirebiliyorum
             {
-                printf("%d\t",matrix[k+1][l+1]);//Zaten üst tarafýn neredeyse aynýsý
+                printf("%d\t",matrix[k+1][l+1]);//Zaten Ã¼st tarafÃ½n neredeyse aynÃ½sÃ½
             }
             printf("\n\n");
         }
@@ -63,101 +63,19 @@ void printTranspose(int row, int column, int matrix[row][column])
         int m, n;
         int transpose[row][column];
 
-        printf("\n ---------------The Transpose---------------\n");/**Burada þöyle bir sorun var; sadece matrisin adreslerini caprazlamak yetmiyor
-                                                                      for döngüsü kafayý yiyor...*/
+        printf("\n ---------------The Transpose---------------\n");/**Burada Ã¾Ã¶yle bir sorun var; sadece matrisin adreslerini caprazlamak yetmiyor
+                                                                      for dÃ¶ngÃ¼sÃ¼ kafayÃ½ yiyor...*/
         for(m=0;m<row;m++)
         {
             for(n=0;n<column;n++)
-                transpose[n+1][m+1]=matrix[m+1][n+1];//Burada matrix'i tanýmlayýp transpose'un ögelerinin matrix'inkilerin
-        }                                            //konumun çaprazlanmýþ hali olduðunu belirtiyoruz
+                transpose[n+1][m+1]=matrix[m+1][n+1];//Burada matrix'i tanÃ½mlayÃ½p transpose'un Ã¶gelerinin matrix'inkilerin
+        }                                            //konumun Ã§aprazlanmÃ½Ã¾ hali olduÃ°unu belirtiyoruz
         for(m=0;m<column;m++)
         {
             for(n=0;n<row;n++)
             {
-                printf("%d\t",transpose[m+1][n+1]);//burada da transpose'a tersten saplýyoruz
+                printf("%d\t",transpose[m+1][n+1]);//burada da transpose'a tersten yerleÅŸtiriyoruz.
             }
-            printf("\n\n");/**Burada interenetten feyz aldým ama katiyyen kopyala yapýþtýr deðil.*/
+            printf("\n\n");/**Burada interenetten feyz aldÃ½m ama katiyyen kopyala yapÃ½Ã¾tÃ½r deÃ°il.*/
         }
     }
-=======
-/**
-Author: @Cahid
-*/
-
-#include <stdio.h>
-
-int createMatrix();
-void printMatrix();
-void printTranspose();
-
-int main()
-{
-    int row, column;
-
-        printf("Enter the number of rows:\n");
-        scanf("%d",&row);
-        printf("Enter the number of column:\n");
-        scanf("%d",&column);//Önce deðerleri verip sonra matrisi tanýmlamam gerektiðini farkettim
-                            //tanýmlayamayýnca çöküyordu sistem
-    int matrix[row][column];
-    createMatrix(row, column, matrix);
-    printMatrix(row, column, matrix);
-    printTranspose(row, column, matrix);
-
-    return 0;
-}
-
-int createMatrix(int row, int column, int matrix[row][column])
-    {
-        int i, j;
-
-        for(i=0;i<row;i++)
-        {
-            for(j=0;j<column;j++)//Burada önce kafam çok karýþtý ama þuan düzelttim kanýmca
-            {
-                printf("Enter the number on the %d. row and %d. column\n", i+1, j+1);
-                scanf("%d",&matrix[i+1][j+1]);/*Kullanýcýdan alýnan deðerlerin doðru yere gitmesi ve kullanýcýnýn da
-                                                her deðerini istediði yerlere sorunsuzca yerleþtirmesi için en mantýklý yol bu galiba...*/
-            }
-        }
-        return matrix[row][column];
-    }
-
-void printMatrix(int row, int column, int matrix[row][column])
-    {
-        int k, l;
-
-        printf("\n ---------------Matrix--------------- \n");
-
-        for(k=0;k<row;k++)
-        {
-            for(l=0;l<column;l++)//Burada da sýkýntý çýkmadý tek tek deðerleri yerleþtirebiliyorum
-            {
-                printf("%d\t",matrix[k+1][l+1]);//Zaten üst tarafýn neredeyse aynýsý
-            }
-            printf("\n\n");
-        }
-    }
-
-void printTranspose(int row, int column, int matrix[row][column])
-    {
-        int m, n;
-        int transpose[row][column];
-
-        printf("\n ---------------The Transpose---------------\n");/**Burada þöyle bir sorun var; sadece matrisin adreslerini caprazlamak yetmiyor
-                                                                      for döngüsü kafayý yiyor...*/
-        for(m=0;m<row;m++)
-        {
-            for(n=0;n<column;n++)
-                transpose[n+1][m+1]=matrix[m+1][n+1];//Burada matrix'i tanýmlayýp transpose'un ögelerinin matrix'inkilerin
-        }                                            //konumun çaprazlanmýþ hali olduðunu belirtiyoruz
-        for(m=0;m<column;m++)
-        {
-            for(n=0;n<row;n++)
-            {
-                printf("%d\t",transpose[m+1][n+1]);//burada da transpose'a tersten saplýyoruz
-            }
-            printf("\n\n");/**Burada interenetten feyz aldým ama katiyyen kopyala yapýþtýr deðil.*/
-        }
-    }
->>>>>>> 8fbb80518065c1b4df7131ee7cadf26d85e04111
