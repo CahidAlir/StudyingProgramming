@@ -1,7 +1,12 @@
+package warmUpChallenges;
 
 public class SockMatching {
 	 
-	static int sockMerchant(int n, int[] ar) {
+	public static void main(String[] args) {
+		
+	}
+	
+	private static int sockMerchant(int n, int[] ar) {
 	        int matchs=0;
 
 	        for(int i=0;i<n;i++) {

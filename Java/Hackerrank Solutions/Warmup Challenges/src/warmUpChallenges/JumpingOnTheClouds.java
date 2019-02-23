@@ -1,3 +1,5 @@
+package warmUpChallenges;
+
 
 public class JumpingOnTheClouds {
 
