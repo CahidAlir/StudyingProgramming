@@ -33,9 +33,4 @@ public class JumpingOnTheClouds {
 		}
 		return totalStep;
 	}
-	
-	public static int salfka() {
-		return 5;
-	}
-
 }
