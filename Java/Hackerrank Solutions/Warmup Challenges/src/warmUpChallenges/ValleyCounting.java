@@ -8,7 +8,6 @@ public class ValleyCounting {
 	public static void main(String[] args) {
 		
 		String s = "UDDDUDUU";
-		
 		System.out.println(countingValleys(8, s));
 	}
 	
