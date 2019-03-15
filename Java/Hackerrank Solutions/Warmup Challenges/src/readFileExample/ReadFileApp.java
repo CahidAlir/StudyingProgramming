@@ -7,12 +7,24 @@ import java.util.ArrayList;
 
 public class ReadFileApp {
 	private static final String FILENAME = "C:\\Users\\Cahid Alýr\\Documents\\StudyingProgramming\\Java\\Hackerrank Solutions\\Warmup Challenges\\src\\readFileExample\\filename.csv";
-
+	
 	public static void main(String[] args) {
-
+		Interface Interface = new Interface(); 
 		ArrayList<Judges> Joe = new ArrayList<>();
 		ArrayList<Judges> Henry = new ArrayList<>();
 		ArrayList<Judges> Bob = new ArrayList<>();
+		getFile(Joe, Henry, Bob);
+		int choice;
+		do {
+			choice = Interface.showMenu();
+			Interface.transmitter(choice, Joe, Henry, Bob);
+		} while(choice!=5);
+		
+		
+		
+	}
+	
+	public static void getFile(ArrayList<Judges> Joe, ArrayList<Judges> Henry, ArrayList<Judges> Bob) {
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(FILENAME))) {
 
@@ -43,14 +55,6 @@ public class ReadFileApp {
 
 		} catch (IOException e) {
 			e.printStackTrace();
-		}
-		for(Judges j: Bob) {
-			System.out.print(j.getNo());
-			System.out.print("/ " + j.getFirstName());
-			System.out.print("/ " + j.getLastName());
-			System.out.print("/ " + j.getCountry());
-			System.out.print("/ " + j.getFaceScore());
-			System.out.println("/ " + j.getBodyScore());
 		}
 	}
 }

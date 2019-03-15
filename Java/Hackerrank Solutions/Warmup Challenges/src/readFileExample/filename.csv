@@ -3,47 +3,47 @@
 3,Kelsey,Calemine,Italian,7.5,5,6.5,6,6,5
 4,Leslie,Sidora,Mauritian,6,5,4.5,5.5,4,8
 5,Caithlyn,Angaline,Malawian| IR,8,9,8,9,8,9
-6,Vaimalama,Chaves,Thatian,5,-1,4.5,-1,4.5,-1
-7,Vika,Bronova,Ukrain,10,9,10,9,9.5,-1
+6,Vaimalama,Chaves,Thatian,5,0,4.5,0,4.5,0
+7,Vika,Bronova,Ukrain,10,9,10,9,9.5,0
 8,Mia,Francis,Venezuella,9,8.5,8,8,9,6
 9,Kiara,Maria,Dominic| MEX,6,5,3,5,6,9
-10,Jessica,Vu,Vietnam,6,-1,5,-1,9,-1
-11,Mishel,Micheev,Israel,10,7,10,7,10,-1
+10,Jessica,Vu,Vietnam,6,0,5,0,9,0
+11,Mishel,Micheev,Israel,10,7,10,7,10,0
 12,Mariama,Diallo,Guine,6.5,9.5,7,9,4,9
 13,Fiana,Barron,Mexican,8,9,8.5,10,6,8
 14,Shaniki,Hernandez,Belize,3,7,3,5.5,3,6.5
-15,Emelie,Battah,Syrian,7.5,-1,6,-1,8,-1
-16,Julia,Muniez,Brazil,5,8,5,7.5,4,-1
+15,Emelie,Battah,Syrian,7.5,0,6,0,8,0
+16,Julia,Muniez,Brazil,5,8,5,7.5,4,0
 17,Sophia,Jamora,Mex| Hawaii,8.5,8,9.5,10,9,9
-18,Sohnia,Ahmad,Pakistani,5,-1,5,-1,2,-1
-19,Yasmin,---,Morocco,1,4,0,6,1,-1
+18,Sohnia,Ahmad,Pakistani,5,0,5,0,2,0
+19,Yasmin,---,Morocco,1,4,0,6,1,0
 20,Ana-Paula,Saenz,Mexican,8.5,9,8,9,8,5
 21,Jin,Baek,Korean,1.5,3,2,1,2.5,2
-22,Mariah,Isabel,Dominic,5.5,-1,5,-1,5,-1
+22,Mariah,Isabel,Dominic,5.5,0,5,0,5,0
 23,Clarisse,Dumeny,Haitian,2,5,1,5,3,2
-24,Eva,Quila,Cuba,6.5,9.5,6,9,5,-1
-25,Estelle,Xo,French,9,-1,7.5,-1,9,-1
+24,Eva,Quila,Cuba,6.5,9.5,6,9,5,0
+25,Estelle,Xo,French,9,0,7.5,0,9,0
 26,Bella,Hadid,Dutch| Palestina,7.5,8,8,8,6.5,9
-27,Sophia,Miacova,French| MEX,7.5,-1,5.5,-1,6.5,7
-28,Ashtar,Jibrael,Iraq,6,-1,2,-1,6,-1
+27,Sophia,Miacova,French| MEX,7.5,0,5.5,0,6.5,7
+28,Ashtar,Jibrael,Iraq,6,0,2,0,6,0
 29,Melike,Arzu,Turkey,8.5,8,10,9,9,8.5
-30,Tiffany,Meia,Mongol| Vietnam,5.5,-1,5,-1,8,-1
+30,Tiffany,Meia,Mongol| Vietnam,5.5,0,5,0,8,0
 31,Marilyn,Melo,Dominic,6,8,5.5,7,5,6
-32,Sophie,Lilian,Germany,5,-1,5.5,-1,8,-1
-33,Kara,Zwaanstra,JP|NL|NO,8.5,-1,7,-1,8.5,-1
-34,Amanda,Khankaew,Thai| Sweden,6.5,-1,5.5,-1,-1,-1
-35,Britney,Vargas,Dominic,6.5,-1,6,-1,5.5,-1
+32,Sophie,Lilian,Germany,5,0,5.5,0,8,0
+33,Kara,Zwaanstra,JP|NL|NO,8.5,0,7,0,8.5,0
+34,Amanda,Khankaew,Thai| Sweden,6.5,0,5.5,0,0,0
+35,Britney,Vargas,Dominic,6.5,0,6,0,5.5,0
 36,Anok,Yai,Sudan,6.5,8.5,3,7,9.5,9.5
-37,Alessandra,Malabanan,Filipina,9,-1,9.5,-1,8,-1
+37,Alessandra,Malabanan,Filipina,9,0,9.5,0,8,0
 38,Vanessa,Moe,Hawaii,8,8,7,8.5,8.5,8
-39,Juliana,Herz,Costa Rica,7,7,5.5,8,7,-1
+39,Juliana,Herz,Costa Rica,7,7,5.5,8,7,0
 40,Chayanne,Depree,South Africa,10,7.5,10,7.5,9.5,7.5
-41,Luia,Medusa,Eritrea,4,-1,2.5,-1,5,-1
+41,Luia,Medusa,Eritrea,4,0,2.5,0,5,0
 32,Venus,Marquez,Porto Rico,9.5,9,4.5,7,5,8
 33,Yodit,Yemane,Eritrea,10,10,10,10,10,9
 34,Haylie,Turnquest,Bahamian,8,7,7,6,8,6
 35,Fiona,Barron,Mexico,6,9,6,8,7.5,9
-36,Indyamarie,---,America| Cuba,3,7,7,7,-1,-1
+36,Indyamarie,---,America| Cuba,3,7,7,7,0,0
 37,Lily,Maymac,Philipinnes,9.5,8,9,9,9,7
 38,Marbely,---,Dominic,5.5,7.5,4.5,8,4,8
 39,Jena,Frumews,Native US|FR,9.5,10,9,10,7,9
@@ -51,32 +51,32 @@
 41,Malaika,Terry,Jamaica| IR,3.5,5,3,4,4,5
 42,Tiona,Ferna,CW,6,8,7,8,7,6
 43,Millie,---,Cape Verdean,2.5,7.5,5,8,4,8
-44,Indy,Santana,Dominic,3,-1,3,-1,2,-1
-45,Telly,Tamba,Liberia,6.5,-1,5,-1,4,-1
-46,Ange,Jose,Dominic|HT,2,3,0,4,2,-1
+44,Indy,Santana,Dominic,3,0,3,0,2,0
+45,Telly,Tamba,Liberia,6.5,0,5,0,4,0
+46,Ange,Jose,Dominic|HT,2,3,0,4,2,0
 47,Pauline,---,Senegal| FR,5.5,5,7.5,7,8,8
-48,Nisrina,Sbia,Morocco,10,-1,10,-1,7,-1
-49,Candice,Blackburn,British,10,-1,9,-1,9.5,-1
-50,Sofia,Ziada,Eritrea,6.5,-1,8.5,-1,8.5,-1
-51,Diana,Korkunova,RUS|KAZAK,8,6,6.5,5.5,9.5,-1
-52,Tashi,Rodriguez,Porto Rico,4.5,5,5,5,5,-1
-53,Melody,---,BE| Congo,5,5,4,4,4.5,-1
-54,Cindy,Kimberly,SPA| Indonesia,8,9,8,9,9,-1
-55,Ibin,---,Algeria,4.5,-1l,4,-1,8.5,-1
-56,Mia,Solange Morales,Morocco| FR,9,-1,7.5,-1,9,-1
-57,Irisa,---,TT,0.5,-1,0.5,-1,2,-1
+48,Nisrina,Sbia,Morocco,10,0,10,0,7,0
+49,Candice,Blackburn,British,10,0,9,0,9.5,0
+50,Sofia,Ziada,Eritrea,6.5,0,8.5,0,8.5,0
+51,Diana,Korkunova,RUS|KAZAK,8,6,6.5,5.5,9.5,0
+52,Tashi,Rodriguez,Porto Rico,4.5,5,5,5,5,0
+53,Melody,---,BE| Congo,5,5,4,4,4.5,0
+54,Cindy,Kimberly,SPA| Indonesia,8,9,8,9,9,0
+55,Ibin,---,Algeria,4.5,0,4,0,8.5,0
+56,Mia,Solange Morales,Morocco| FR,9,0,7.5,0,9,0
+57,Irisa,---,TT,0.5,0,0.5,0,2,0
 58,Celiene,Paolini,RUS|COL|THAI,10,10,7.5,10,9,10
 59,Mieloi,Martines,CW,4,9,3.5,9,5,9
-60,Malahga,Jaberi,Iranian,9.5,-1,9,-1,10,-1
-61,Maria,Isabel,Dominic,7.5,-1,9.5,-1,8.5,-1
-62,Victoria,---,Porteguese| BR,7,-1,6.5,-1,6,-1
-63,Anja,Verderosa,FR,7,-1,5.5,-1,8,-1
-64,Nathie,Veras,Brazil,8,7,8,7,9,-1
+60,Malahga,Jaberi,Iranian,9.5,0,9,0,10,0
+61,Maria,Isabel,Dominic,7.5,0,9.5,0,8.5,0
+62,Victoria,---,Porteguese| BR,7,0,6.5,0,6,0
+63,Anja,Verderosa,FR,7,0,5.5,0,8,0
+64,Nathie,Veras,Brazil,8,7,8,7,9,0
 65,Anastagia,Pierre,BS| HT,3.5,8.5,4.5,8,4,8
 66,Meg,Kylie,AUS| SA,4.5,8,4.5,7.5,5,8
-67,Christiana,Tobie,Liberia,3,-1,3,-1,2,-1
-68,Jessica,Pimentel,British,7.5,-1,7.5,-1,7,-1
+67,Christiana,Tobie,Liberia,3,0,3,0,2,0
+68,Jessica,Pimentel,British,7.5,0,7.5,0,7,0
 69,Robin,Roxette,Surina|Dutch,4,6,5,7.5,4,8
-70,Christiana,Nadin,IR|Philippinnes,7,-1,7.5,-1,7,-1
+70,Christiana,Nadin,IR|Philippinnes,7,0,7.5,0,7,0
 71,Ashley,Vee,Philipinnes,8,7.5,6.5,8,8,8
 72,Pamela,Besos,Dominic,3,2,2,1,3,2
