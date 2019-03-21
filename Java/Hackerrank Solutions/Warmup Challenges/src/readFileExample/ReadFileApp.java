@@ -15,6 +15,9 @@ public class ReadFileApp {
 		ArrayList<Judges> Bob = new ArrayList<>();
 		getFile(Joe, Henry, Bob);
 		int choice;
+		
+		System.out.println("Welcome to the competition!");
+
 		do {
 			choice = Interface.showMenu();
 			Interface.transmitter(choice, Joe, Henry, Bob);
@@ -24,6 +27,14 @@ public class ReadFileApp {
 		
 	}
 	
+	/**
+	 * This method reads a file line by line and contains all the information in it in the 
+	 * desired locations.
+	 * 
+	 * @param Joe :ArrayList that will be filled with competitors and Judge Joe's scores for them.
+	 * @param Henry :ArrayList that will be filled with competitors and Judge Henry's scores for them.
+	 * @param Bob :ArrayList that will be filled with competitors and Judge Bob's scores for them.
+	 */
 	public static void getFile(ArrayList<Judges> Joe, ArrayList<Judges> Henry, ArrayList<Judges> Bob) {
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(FILENAME))) {
