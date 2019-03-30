@@ -1,5 +1,9 @@
 package warmUpChallenges;
 
+/**
+ * @author Cahid Alýr
+ *
+ */
 public class HourglassSum {
 	
 	public static void main(String[] args) {
